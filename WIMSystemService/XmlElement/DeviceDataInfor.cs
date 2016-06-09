@@ -10,31 +10,27 @@ namespace WIMSystemService.XmlElement
         [XmlElement("DEVICE")]
         public DeviceInfor Device { get; set; }
         [XmlElement("FIRST_DETECTION_TIME")]
-        public String FirtDetectionTime { get; set; }
+        public string FirtDetectionTime { get; set; }
         [XmlElement("LAST_DETECTION_TIME")]
-        public String LastDetectionTime { get; set; }
+        public string LastDetectionTime { get; set; }
         [XmlElement("VEHICLES_COUNT")]
-        public int VehicleCount { get; set; }
-
-        //[XmlElement("SUB_DATA")]
-        //public SubsystemInfor SubData { get; set; }
-
+        public string VehicleCount { get; set; }
     }
 
     public class Status
     {
-         [XmlAttribute("value")]
-        public int Value { get; set; }
-         [XmlAttribute("description")]
+        [XmlAttribute("value")]
+        public string Value { get; set; }
+        [XmlAttribute("description")]
         public string Description { get; set; }
     }
 
-    public class RequestError: RequestInforCommon
+    public class RequestError : RequestInforCommon
     {
         [XmlAttribute("type")]
         public string Type { get; set; }
         [XmlAttribute("number")]
-        public int Number { get; set; }
+        public string Number { get; set; }
         [XmlAttribute("send_time")]
         public string SendTime { get; set; }
     }
@@ -46,17 +42,17 @@ namespace WIMSystemService.XmlElement
         [XmlAttribute("vehicle_class")]
         public string VehicleClass { get; set; }
         [XmlAttribute("total_lanes")]
-        public int TotalLanes { get; set; }
+        public string TotalLanes { get; set; }
     }
 
     public class SubSystemData
     {
         [XmlAttribute("subsys")]
         public string SubSystem { get; set; }
-        
+
         [XmlAttribute("subsys_type")]
         public string SubSystemType { get; set; }
-    
+
         [XmlElement("STATUSES")]
         public List<Status> Statuses { get; set; }
     }
@@ -64,29 +60,61 @@ namespace WIMSystemService.XmlElement
     public class SubDataWithoutAggregation : SubSystemData
     {
         [XmlAttribute("subsys_number")]
-        public int SubSytemNumber { get; set; }
+        public string SubSytemNumber { get; set; }
         [XmlElement("VEHICLE")]
         public List<VehicleDataInfor> ListVehicle { get; set; }
     }
 
     public class SubDatawithAggregation : SubSystemData
     {
-         [XmlElement("INTENSITY")]
+        [XmlElement("INTENSITY")]
         public AggregationInfoBase Intensity { get; set; }
-         [XmlElement("OCCUPANCY")]
+        [XmlElement("OCCUPANCY")]
         public AggregationInfoBase Occupancy { get; set; }
-         [XmlElement("VELOCITY")]
+        [XmlElement("VELOCITY")]
         public AggregationInfoBase Velocity { get; set; }
-         [XmlElement("CONFIDENCE")]
-        public int Confidence { get; set; }
 
+        [XmlElement("CONFIDENCE")]
+        public string Confidence { get; set; }
     }
+    public class myClass
+    {
+        [XmlAttribute("id")]
+        public string ID { get; set; }
+
+        [XmlText]
+        public string Value { get; set; }
+    }
+    //public  class All
+    //{
+    //    [XmlText]
+    //    public  string Value { get; set; }
+    //}
+    ////public class Intensity:AggregationInfoBase
+    //{
+    //    //[XmlElement("ALL")]
+    //    //public All ALL { get; set; }
+
+    //    //[XmlElement]
+
+    //    //public myClass LstClass { get; set; }
+    //}
+    //public class Occupancy : AggregationInfoBase
+    //{
+    //    //[XmlElement("ALL")]
+    //    //public All ALL { get; set; }
+
+    //    //[XmlElement]
+
+    //    //public myClass LstClass { get; set; }
+    //}
 
     public class AggregationInfoBase
     {
         [XmlElement("ALL")]
-        public int All { get; set; }
-        [XmlElement("CLASS")]
-        public int Class { get; set; }
+        public string All { get; set; }
+        [XmlElement("CLASS")]    
+        public List<myClass> LstClass { get; set; }
+
     }
 }

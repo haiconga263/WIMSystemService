@@ -36,8 +36,8 @@ namespace WIMSystemService
 
                 TextReader reader = new StreamReader("demoxml.xml");
 
-                var xmlSerializer = new XmlSerializer(typeof(Data_4_4_1_1));
-                Data_4_4_1_1 data = xmlSerializer.Deserialize(reader) as Data_4_4_1_1;
+                var xmlSerializer = new XmlSerializer(typeof(Pro_Alarm_Overweight));
+                Pro_Alarm_Overweight data = xmlSerializer.Deserialize(reader) as Pro_Alarm_Overweight;
 
                 reader.Close();
             }

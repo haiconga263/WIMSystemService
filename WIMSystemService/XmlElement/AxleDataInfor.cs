@@ -1,22 +1,35 @@
-﻿using System.Xml.Serialization;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace WIMSystemService.XmlElement
 {
-    public class AxleDataInfor
+    [XmlRoot("AXLES")]
+    public class AxlesInfor
+    {
+        [XmlAttribute("count")]
+        public string Count { get; set; }
+        [XmlAttribute("length")]
+        public string Length { get; set; }
+
+        [XmlElement("AXLE")]
+        //[XmlArrayItem("AXLE", typeof(AxleDataInfor))]
+        public List<AxleDataInfor> ListAxles { get; set; }
+    }
+    public class AxleDataInfor 
     {
         [XmlAttribute("order")]
-        public int Order { get; set; }
+        public string Order { get; set; }
         [XmlAttribute("dist")]
-        public int Distance { get; set; }
+        public string Distance { get; set; }
         [XmlAttribute("weight")]
-        public float AxleWeight { get; set; }
+        public string AxleWeight { get; set; }
         [XmlAttribute("leftside_load")]
-        public float LeftsideLoad { get; set; }
+        public string LeftsideLoad { get; set; }
         [XmlAttribute("rightside_load")]
-        public float RightsideLoad { get; set; }
+        public string RightsideLoad { get; set; }
         [XmlAttribute("overloaded")]
-        public float Overloaded { get; set; }
+        public string Overloaded { get; set; }
         [XmlAttribute("tires_count")]
-        public int TiresCount { get; set; }
+        public string TiresCount { get; set; }
     }
 }

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WIMSystemService.Process.DevDataInFor4_1" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEA=</HashCode>
+      <FileName>Process\Data_4_4_1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.RequestError4_1" Collapsed="true">
+    <Position X="9.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Process\Data_4_4_1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.Data_4_4_1" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process\Data_4_4_1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.DevDataInFor4_2" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEA=</HashCode>
+      <FileName>Process\Data_4_4_1_2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.Data_4_4_1_2" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process\Data_4_4_1_2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.Pro_Alarm_OverSpeed">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process\Pro_Alarm_OverSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.DevData_Over">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process\Pro_Alarm_OverSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.Pro_SubsystemInfor">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process\Pro_Alarm_OverSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.Pro_Alarm_Overweight">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process\Pro_Alarm_Overweight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.DevData_OverW">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process\Pro_Alarm_Overweight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.Process.Pro_SubsystemInfor_W">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process\Pro_Alarm_Overweight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.AlarmDataInfor" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAAAAhACAAAAIwAAAAAACAAAAAAAEggAAAACA=</HashCode>
+      <FileName>XmlElement\AlarmDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.OverspeedAlarm" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>XmlElement\AlarmDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.OverWeightAlarm" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\AlarmDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.OverSpeedInfor" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\AlarmDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.OverWeightInfor" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\AlarmDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.AxlesInfor" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAARAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\AxleDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.AxleDataInfor" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAABAAAAAAAgAAAgAAAAAAAAAIAABAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\AxleDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.CommunicationInfor" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAgAA=</HashCode>
+      <FileName>XmlElement\CommunicationInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.DeviceDataInfor" Collapsed="true">
+    <Position X="2" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAIAAAAgAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.Status" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.RequestError" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.DeviceInfor" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAIAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.SubSystemData" Collapsed="true">
+    <Position X="6.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.SubDataWithoutAggregation" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.SubDatawithAggregation" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAIAIAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>XmlElement\DeviceDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.myClass" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.AggregationInfoBase" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.DeviceTypeInfor" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceTypeInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.ConfigDevice" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\DeviceTypeInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.RequestInforCommon" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>XmlElement\RequestInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.RequestInfor" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\RequestInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.RequestSubSpec" Collapsed="true">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>XmlElement\RequestInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.SubsystemInfor">
+    <Position X="2" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>XmlElement\RequestInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.VehicleDataInfor" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACGAAAAQEAJAIAAACAQAAgAAACABACABAEAgAAAACI=</HashCode>
+      <FileName>XmlElement\VehicleDataInfor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WIMSystemService.XmlElement.WimDataInfo" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAARAAIAIAAAiAAAEgAAAAABACABAAAAAAAAAI=</HashCode>
+      <FileName>XmlElement\WimDataInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,17 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace WIMSystemService.XmlElement
 {
+
     public class AlarmDataInfor
     {
         [XmlAttribute("value")]
-        public int Value { get; set; }
+        public string Value { get; set; }
         [XmlAttribute("description")]
         public string Description { get; set; }
 
         [XmlElement("CLASS")]
-        public string VehicleClass { get; set; }
+        public myClass Class { get; set; }
         [XmlElement("TIME")]
         public string DetectionTime { get; set; }
         [XmlElement("LP_FRONT")]
@@ -45,7 +47,7 @@ namespace WIMSystemService.XmlElement
     {
         [XmlArray("OVERWEIGHTS")]
         [XmlArrayItem("OVERWEIGHT")]
-        public OverWeightInfor[] OverWeights { get; set; }
+        public List<OverWeightInfor> OverWeights { get; set; }
         [XmlElement("WIM_INFO")]
         public WimDataInfo WimInfo { get; set; }
 
@@ -54,14 +56,20 @@ namespace WIMSystemService.XmlElement
     public class OverSpeedInfor
     {
         [XmlAttribute("speed_limit")]
-        public int SpeedLimit { get; set; }
+        public string SpeedLimit { get; set; }
         [XmlAttribute("speed_measured")]
-        public int SpeedMeasure  { get; set; }
+        public string SpeedMeasure  { get; set; }
     }
 
     public class OverWeightInfor
     {
-        [XmlArrayItem("OVERWEIGHT")]
-        public int OverWeight { get; set; }
+        //[XmlArrayItem("OVERWEIGHT")]
+        //public string OverWeight { get; set; }
+        [XmlAttribute("type")]
+        public string Type { get; set; }
+        [XmlAttribute("weight_limit")]
+        public string Weight_limit { get; set; }
+        [XmlAttribute("weight_measured")]
+        public string Weight_measured { get; set; }
     }
 }

@@ -46,9 +46,9 @@ namespace WIMSystemService.XmlElement
         public string DetailImageBack { get; set; }
         [XmlElement("OVERVIEW_IMAGE")]
         public string OverviewImage { get; set; }
-         [XmlElement("AXLES")]
-         public List<AxleDataInfor> AxlesData { get; set; }
 
-       
+        [XmlElement("AXLES")]
+        //[XmlArray("AXLES"), XmlArrayItem("AXLE", typeof(AxleDataInfor))]
+        public AxlesInfor lstAxles { get; set; }
     }
 }

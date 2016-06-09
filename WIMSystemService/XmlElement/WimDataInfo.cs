@@ -11,30 +11,29 @@ namespace WIMSystemService.XmlElement
         [XmlAttribute("id")]
         public string Id { get; set; }
          [XmlAttribute("direction")]
-        public bool Direction { get; set; }
+        public string Direction { get; set; }
         [XmlAttribute("head")]
-        public int Head { get; set; }
+        public string Head { get; set; }
         [XmlAttribute("gap")]
-        public int Gap { get; set; }
+        public string Gap { get; set; }
         [XmlAttribute("speed")]
-        public int VehicleSpeed { get; set; }
+        public string VehicleSpeed { get; set; }
          [XmlAttribute("width")]
-        public int Width { get; set; }
+        public string Width { get; set; }
          [XmlAttribute("height")]
-        public int Height { get; set; }
+        public string Height { get; set; }
         [XmlAttribute("length")]
-        public int VehicleLength { get; set; }
+        public string VehicleLength { get; set; }
         [XmlAttribute("class")]
-        public int VehicleClass { get; set; }
+        public string VehicleClass { get; set; }
         [XmlAttribute("overloaded_total")]
-        public int IsOverload { get; set; }
+        public string IsOverload { get; set; }
         [XmlAttribute("weight_total ")]
-        public int GrossWeigth { get; set; }
+        public string GrossWeigth { get; set; }
         [XmlAttribute("credibility")]
         public string Credibility { get; set; }
 
-        [XmlArray("AXLES")]
-        [XmlArrayItem("AXLE")]
-        public AxleDataInfor AxleDataInfor { get; set; }
+        [XmlElement("AXLES")]
+        public AxlesInfor AxleDataInfor { get; set; }
     }
 }

@@ -28,12 +28,10 @@ namespace WIMSystemService.Process
         public List<string>lstError  { get; set; }
     }
     [XmlRoot("DOC")]
-    public class Data_4_4_1_1 : CommunicationInfor
+    public class Data_4_4_1 : CommunicationInfor
     {
         [XmlElement("DEV_DATA")]
         public DevDataInFor4_1 DevDataInfor { get; set; }
-
-
     }
     
 }

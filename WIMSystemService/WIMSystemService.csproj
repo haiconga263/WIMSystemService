@@ -53,7 +53,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Process\Data_4_4_1_1.cs" />
+    <Compile Include="Process\Pro_Alarm_OverSpeed.cs" />
+    <Compile Include="Process\Data_4_4_1.cs" />
+    <Compile Include="Process\Data_4_4_1_2.cs" />
+    <Compile Include="Process\Pro_Alarm_Overweight.cs" />
     <Compile Include="XmlElement\AlarmDataInfor.cs" />
     <Compile Include="XmlElement\AxleDataInfor.cs" />
     <Compile Include="XmlElement\CommunicationInfor.cs" />
@@ -96,6 +99,7 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

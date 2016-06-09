@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace WIMSystemService.XmlElement
 {
-   // [XmlRoot("DOC")]
+    //[XmlRoot("DOC")]
     public class CommunicationInfor
     {
         [XmlAttribute("type")]
@@ -11,7 +11,7 @@ namespace WIMSystemService.XmlElement
         [XmlAttribute("version")]
         public string Version { get; set; }
         [XmlAttribute("number")]
-        public int Number { get; set; }
+        public string Number { get; set; }
         [XmlAttribute("send_time")]
         public string SendTime { get; set; }
         [XmlAttribute("transmission")]
