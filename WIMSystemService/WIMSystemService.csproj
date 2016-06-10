@@ -55,15 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Process\Serialization.cs" />
+    <Compile Include="Receive_Data\Message_Config.cs" />
     <Compile Include="Receive_Data\Pro_Alarm_OverSpeed.cs" />
-    <Compile Include="Receive_Data\Data_4_4_1.cs" />
-    <Compile Include="Receive_Data\Data_4_4_1_2.cs" />
+    <Compile Include="Receive_Data\DataAggregation.cs" />
+    <Compile Include="Receive_Data\DataAggregationType.cs" />
     <Compile Include="Receive_Data\Pro_Alarm_Overweight.cs" />
     <Compile Include="Request\Request_Config.cs" />
     <Compile Include="Request\Request_Data.cs" />
     <Compile Include="Request\Request_Resend_Data.cs" />
-    <Compile Include="Serializer\SerializerXML.cs" />
+    <Compile Include="Process\SerializerXML.cs" />
     <Compile Include="View\Message_Request_Data.xaml.cs">
       <DependentUpon>Message_Request_Data.xaml</DependentUpon>
     </Compile>
@@ -123,7 +123,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Serializer\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
