@@ -8,14 +8,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="WIMSystemService.XmlElement.OverspeedAlarm">
-    <Position X="8" Y="8.5" Width="1.5" />
+    <Position X="8" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
       <FileName>XmlElement\AlarmDataInfor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WIMSystemService.XmlElement.OverWeightAlarm">
-    <Position X="9.75" Y="8.25" Width="1.5" />
+    <Position X="9.75" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>XmlElement\AlarmDataInfor.cs</FileName>
@@ -31,7 +31,7 @@
   <Class Name="WIMSystemService.XmlElement.OverWeightInfor">
     <Position X="17.5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAA=</HashCode>
       <FileName>XmlElement\AlarmDataInfor.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -57,7 +57,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="WIMSystemService.XmlElement.Status">
-    <Position X="11.5" Y="4.5" Width="1.5" />
+    <Position X="11.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
       <FileName>XmlElement\DeviceDataInfor.cs</FileName>

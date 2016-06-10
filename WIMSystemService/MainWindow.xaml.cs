@@ -1,21 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Xml.Serialization;
-using WIMSystemService.Process;
-using WIMSystemService.XmlElement;
+
+using WIMSystemService.Request;
+using WIMSystemService.Serializer;
 
 namespace WIMSystemService
 {
@@ -31,15 +19,11 @@ namespace WIMSystemService
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            Request_Resend_Data rsd = new Request_Resend_Data { Number="123",RequestInfor= new Request_Resend_Doc { DataType = "1", Request = new Sub_Resend_Request {StartTime = "1234" } }, SendTime = "123", Transmission = "1" };
+            //Request_Data rq = new Request_Data { Number = "123", Type = "123", RequestInfor = new Request_Doc { Receiver = "123", Sender = "123", Request = new Sub_Request { SubSystemSpec = new XmlElement.SubsystemInfor { SubSystem = "123", SubSystemType = "231" } } } };
             try
             {
-
-                TextReader reader = new StreamReader("demoxml.xml");
-
-                var xmlSerializer = new XmlSerializer(typeof(Pro_Alarm_Overweight));
-                Pro_Alarm_Overweight data = xmlSerializer.Deserialize(reader) as Pro_Alarm_Overweight;
-
-                reader.Close();
+                MySerializerXML<Request_Resend_Data>.Serialize(rsd, "thai");
             }
             catch (Exception ex)
             {

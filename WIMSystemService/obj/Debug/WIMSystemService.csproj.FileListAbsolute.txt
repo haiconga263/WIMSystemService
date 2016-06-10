@@ -11,11 +11,7 @@ E:\ITD\Team_WimService\Source\WIMSystemService\WIMSystemService\obj\Debug\WIMSys
 E:\ITD\Team_WimService\Source\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csproj.GenerateResource.Cache
 E:\ITD\Team_WimService\Source\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.exe
 E:\ITD\Team_WimService\Source\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.pdb
-E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.exe.config
-E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.exe
-E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.pdb
-E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.exe
-E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.pdb
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csprojResolveAssemblyReference.cache
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\MainWindow.baml
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\MainWindow.g.cs
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\App.g.cs
@@ -23,3 +19,11 @@ E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSyst
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.g.resources
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.Properties.Resources.resources
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csproj.GenerateResource.Cache
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.exe.config
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.exe
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.pdb
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.exe
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.pdb
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\View\Message_Request_Data.g.cs
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService_MarkupCompile.lref
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\View\Message_Request_Data.baml

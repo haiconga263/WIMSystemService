@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" number="123" send_time="123" transmission="1">
+  <REQ data_type="1">
+    <SUBSYS_SPEC start_time="1234" />
+  </REQ>
+</DOC>

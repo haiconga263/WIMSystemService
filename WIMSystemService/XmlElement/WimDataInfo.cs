@@ -35,5 +35,7 @@ namespace WIMSystemService.XmlElement
 
         [XmlElement("AXLES")]
         public AxlesInfor AxleDataInfor { get; set; }
+       
+
     }
 }
