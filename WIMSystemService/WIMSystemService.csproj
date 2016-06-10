@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Process\DeserializerXML.cs" />
     <Compile Include="Receive_Data\Message_Config.cs" />
     <Compile Include="Receive_Data\Pro_Alarm_OverSpeed.cs" />
     <Compile Include="Receive_Data\DataAggregation.cs" />
