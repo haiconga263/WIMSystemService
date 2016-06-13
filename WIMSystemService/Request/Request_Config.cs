@@ -11,7 +11,7 @@ namespace WIMSystemService.Request
     [XmlRoot("DOC")]
     public class Request_Config : CommunicationInfor
     {
-        //[XmlElement("REQ")]
+        [XmlElement("REQ")]
         public Request_Config_Doc RequestInfor { get; set; }
 
     }

@@ -11,14 +11,14 @@ namespace WIMSystemService.Request
     [XmlRoot("DOC")]
     public class Request_Data : CommunicationInfor
     {
-        //[XmlElement("REQ")]
+        [XmlElement("REQ")]
         public Request_Doc RequestInfor { get; set; }
 
     }
     
     public class Request_Doc:RequestInfor
     {
-       // [XmlElement("SUBSYS_SPEC")]
+       [XmlElement("SUBSYS_SPEC")]
         public Sub_Request Request { get; set; }
     }
     public  class Sub_Request:RequestSubSpec

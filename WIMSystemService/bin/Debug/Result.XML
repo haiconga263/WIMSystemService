@@ -1,29 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DOC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="data" version="2.4" number="1" send_time="2011-04-01 12:05:04" transmission="TCP">
-  <DEV_DATA sender="WIM_LV-KO" receiver="vars" device_type="WIM" data_type="event" start_time="2011-04-01 12:00:00" stop_time="2011-04-01 12:05:00">
-    <DEVICE location="Tunel 73, Teesdorf – Teesdorf, direction Vienna " vehicle_class="EUR13" total_lanes="2" />
-    <FIRST_DETECTION_TIME>2011-04-01 12:00:56</FIRST_DETECTION_TIME>
-    <LAST_DETECTION_TIME>2011-04-01 12:00:56</LAST_DETECTION_TIME>
-    <VEHICLES_COUNT> 1 </VEHICLES_COUNT>
-    <STATUSES>
-      <STATUS value="3" description="Service / Test" />
-    </STATUSES>
-    <SUB_DATA subsys=" LV-KO-W2" subsys_type="LANE">
-      <STATUSES />
-      <VEHICLE id="LV-KO-W2_20110401T120056123" time="2011-04-01 12:00:56" direction="1" head="4.25" gap="3.46" speed="60.8" length="4.5" class="1" overloaded_total="1" credibility="CERTIFIED">
-        <LP_IMAGE_FRONT>Base64formated image</LP_IMAGE_FRONT>
-        <LP_IMAGE_BACK>Base64 formated image </LP_IMAGE_BACK>
-        <DETAIL_IMAGE_FRONT>Base64 formated image </DETAIL_IMAGE_FRONT>
-        <DETAIL_IMAGE_BACK>Base64 formated image </DETAIL_IMAGE_BACK>
-        <OVERVIEW_IMAGE>Base64 formated image </OVERVIEW_IMAGE>
-        <AXLES count="2" length="3.2">
-          <AXLE order="1" dist="3.2" weight="1000" overloaded="0" />
-          <AXLE order="2" dist="" weight="840" overloaded="0" />
-        </AXLES>
-      </VEHICLE>
-    </SUB_DATA>
-  </DEV_DATA>
-  <REQUEST_ERRORS ERROR="">
-    <REQUEST_ERRORS />
-  </REQUEST_ERRORS>
+<DOC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="request_resend_data" version="2.4" number="2" send_time="2011-08-18 05:01:00" transmission="TCP">
+  <REQ sender="Kapsch" receiver="all" device_type="WIM" data_type="5min" start_time="2011-08-18 12:55:00" stop_time="2011-08-18 13:55:00">
+    <SUBSYS_SPEC />
+  </REQ>
 </DOC>

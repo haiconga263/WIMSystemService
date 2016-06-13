@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DOC type="request_resend_data" version="2.4" number="2" send_time="2011-08-18 05:01:00" transmission="TCP" >
+  <REQ sender="Kapsch" receiver="all" device_type="WIM" data_type="5min" start_time="2011-08-18 12:55:00"
+  stop_time="2011-08-18 13:55:00">
+    <SUBSYS_SPEC subsys="SubSystem" subsys_type="SubsysType"/>
+  </REQ>
+</DOC>

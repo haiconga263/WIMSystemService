@@ -27,3 +27,8 @@ E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSyst
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csproj.GenerateResource.Cache
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.exe
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.pdb
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csprojResolveAssemblyReference.cache
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\View\Request_Config.g.cs
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\View\Request_Resend_Data.g.cs
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\View\Request_Config.baml
+E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\obj\Debug\View\Request_Resend_Data.baml

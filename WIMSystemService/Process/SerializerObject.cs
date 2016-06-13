@@ -59,7 +59,24 @@ namespace WIMSystemService.Process
                                 }
                                 break;
                             }
-
+                        case "request_data":
+                            {
+                                Request_Data request_data = DeserializerXML<Request_Data>.Deserializer(Name);
+                                return request_data;
+                                break;
+                            }
+                        case "request_resend_data":
+                            {
+                                Request_Resend_Data request_re_data = DeserializerXML<Request_Resend_Data>.Deserializer(Name);
+                                return request_re_data;
+                                break;
+                            }
+                        case "request_config":
+                            {
+                                Request_Config request_config = DeserializerXML<Request_Config>.Deserializer(Name);
+                                return request_config;
+                                break;
+                            }
                     }
                 }
                 catch (Exception ex)
