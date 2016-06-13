@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DOC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="request_resend_data" version="2.4" number="2" send_time="2011-08-18 05:01:00" transmission="TCP">
-  <REQ sender="Kapsch" receiver="all" device_type="WIM" data_type="5min" start_time="2011-08-18 12:55:00" stop_time="2011-08-18 13:55:00">
-    <SUBSYS_SPEC />
-  </REQ>
+<DOC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="alarm_occured" version="2.6" number="1376" send_time="2013-06-05 11:06:03" transmission="TCP">
+  <DEV_DATA sender="WIM_XX-XX" receiver="Customer" device_type="WIM" data_type="events" start_time="2013-06-05 11:01:05" stop_time="2013-06-05 11:06:05">
+    <SUB_DATA subsys="XX-XX-WN" subsys_type="LANE">
+      <ALARM value="2" description="Overweightcar">
+        <CLASS>3</CLASS>
+        <TIME>2013-06-05 12:45:10</TIME>
+        <LP_FRONT>7B71234</LP_FRONT>
+        <LP_FRONT_ILPC>CZ</LP_FRONT_ILPC>
+        <LP_BACK>7B71234</LP_BACK>
+        <LP_BACK_ILPC>CZ</LP_BACK_ILPC>
+        <LP_IMAGE_FRONT>Base64 formated image</LP_IMAGE_FRONT>
+        <LP_IMAGE_BACK>Base64 formated image</LP_IMAGE_BACK>
+        <DETAIL_IMAGE_FRONT>Base64 formated image</DETAIL_IMAGE_FRONT>
+        <DETAIL_IMAGE_BACK>Base64 formated image</DETAIL_IMAGE_BACK>
+        <OVERVIEW_IMAGE>Base64 formated image</OVERVIEW_IMAGE>
+        <OVERWEIGHTS>
+          <OVERWEIGHT type="total (1-3)" weight_limit="26000" weight_measured="30866" />
+          <OVERWEIGHT type="truck (1-3)" weight_limit="26000" weight_measured="30866" />
+          <OVERWEIGHT type="group (2-3)" weight_limit="19000" weight_measured="23216" />
+        </OVERWEIGHTS>
+        <WIM_INFO id="XX-XX-WN_20130605T144510438+0200" direction="1" head="1792" gap="1536" speed="42" width="2454" height="3955" length="7600" class="3" overloaded_total="1" credibility="CERTIFIED">
+          <AXLES count="3" length="4760">
+            <AXLE order="1" dist="3390" weight="7650" leftside_load="4082" rightside_load="3568" overloaded="0" tires_count="0" />
+            <AXLE order="2" dist="1370" weight="11920" leftside_load="5821" rightside_load="6099" overloaded="1" tires_count="0" />
+            <AXLE order="3" dist="0" weight="11296" leftside_load="5013" rightside_load="6283" overloaded="1" tires_count="0" />
+          </AXLES>
+        </WIM_INFO>
+      </ALARM>
+    </SUB_DATA>
+  </DEV_DATA>
 </DOC>

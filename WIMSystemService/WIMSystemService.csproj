@@ -61,10 +61,10 @@
     <Compile Include="Process\DeserializerXML.cs" />
     <Compile Include="Process\SerializerObject.cs" />
     <Compile Include="Config\Message_Config.cs" />
-    <Compile Include="Receive_Data\Alarm_OverSpeed.cs" />
+    <Compile Include="Alarm\Alarm_OverSpeed.cs" />
     <Compile Include="Receive_Data\DataAggregation.cs" />
     <Compile Include="Receive_Data\DataAggregationType.cs" />
-    <Compile Include="Receive_Data\Alarm_Overweight.cs" />
+    <Compile Include="Alarm\Alarm_Overweight.cs" />
     <Compile Include="Request\Request_Config.cs" />
     <Compile Include="Request\Request_Data.cs" />
     <Compile Include="Request\Request_Resend_Data.cs" />
@@ -154,7 +154,6 @@
   <ItemGroup>
     <Resource Include="XML_Pack\Request_Pack\Reqest_Data.xml" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="XML_Pack\Request_Pack\Request_Resend_Data_5min.xml" />
   </ItemGroup>
@@ -167,6 +166,12 @@
   <ItemGroup>
     <Resource Include="XML_Pack\Data_Pack\DataAggregation.xml" />
     <Resource Include="XML_Pack\Data_Pack\Data_Aggregation_Type.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WimSystemLib\WimSystemLib.csproj">
+      <Project>{0dfe5446-a585-45a8-adc9-988d6ec86fe1}</Project>
+      <Name>WimSystemLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

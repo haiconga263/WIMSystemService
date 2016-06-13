@@ -9,6 +9,7 @@ using WIMSystemService.Deserializer;
 using WIMSystemService.Receive_Data;
 using WIMSystemService.Request;
 using WIMSystemService.XmlElement;
+using WimSystemLib;
 
 namespace WIMSystemService.Process
 {
@@ -54,13 +55,15 @@ namespace WIMSystemService.Process
                                 }
                                 else if (int.Parse(data.DevDataInfor.Sub_Data.Over.Value) == 2)
                                 {
-                                    Alarm_Overweight dataAlarmOccured = DeserializerXML<Alarm_Overweight>.Deserializer(Name);
+                                    Alarm_Overweight dataAlarmOccured = MyDeserializerXML<Alarm_Overweight>.Deserialize_Alarm_OverWeight(Name);
+                                     //DeserializerXML<Alarm_Overweight>.Deserializer(Name);
                                     return dataAlarmOccured;
                                 }
                                 break;
                             }
                         case "request_data":
                             {
+                              
                                 Request_Data request_data = DeserializerXML<Request_Data>.Deserializer(Name);
                                 return request_data;
                                 break;

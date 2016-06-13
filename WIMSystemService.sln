@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIMSystemService", "WIMSystemService\WIMSystemService.csproj", "{B7E8F1BF-4773-4582-ABD5-C6C205057E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WimSystemLib", "WimSystemLib\WimSystemLib.csproj", "{0DFE5446-A585-45A8-ADC9-988D6EC86FE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B7E8F1BF-4773-4582-ABD5-C6C205057E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7E8F1BF-4773-4582-ABD5-C6C205057E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7E8F1BF-4773-4582-ABD5-C6C205057E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFE5446-A585-45A8-ADC9-988D6EC86FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFE5446-A585-45A8-ADC9-988D6EC86FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFE5446-A585-45A8-ADC9-988D6EC86FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFE5446-A585-45A8-ADC9-988D6EC86FE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

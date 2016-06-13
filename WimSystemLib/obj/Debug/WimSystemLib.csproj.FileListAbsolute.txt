@@ -1,0 +1,5 @@
+E:\ITD\Github_TeamWimService\WIMSystemService\WimSystemLib\bin\Debug\WimSystemLib.dll
+E:\ITD\Github_TeamWimService\WIMSystemService\WimSystemLib\bin\Debug\WimSystemLib.pdb
+E:\ITD\Github_TeamWimService\WIMSystemService\WimSystemLib\obj\Debug\WimSystemLib.csprojResolveAssemblyReference.cache
+E:\ITD\Github_TeamWimService\WIMSystemService\WimSystemLib\obj\Debug\WimSystemLib.dll
+E:\ITD\Github_TeamWimService\WIMSystemService\WimSystemLib\obj\Debug\WimSystemLib.pdb
