@@ -60,17 +60,23 @@
     </ApplicationDefinition>
     <Compile Include="Process\DeserializerXML.cs" />
     <Compile Include="Process\SerializerObject.cs" />
-    <Compile Include="Receive_Data\Message_Config.cs" />
-    <Compile Include="Receive_Data\Pro_Alarm_OverSpeed.cs" />
+    <Compile Include="Config\Message_Config.cs" />
+    <Compile Include="Receive_Data\Alarm_OverSpeed.cs" />
     <Compile Include="Receive_Data\DataAggregation.cs" />
     <Compile Include="Receive_Data\DataAggregationType.cs" />
-    <Compile Include="Receive_Data\Pro_Alarm_Overweight.cs" />
+    <Compile Include="Receive_Data\Alarm_Overweight.cs" />
     <Compile Include="Request\Request_Config.cs" />
     <Compile Include="Request\Request_Data.cs" />
     <Compile Include="Request\Request_Resend_Data.cs" />
     <Compile Include="Process\SerializerXML.cs" />
     <Compile Include="View\Message_Request_Data.xaml.cs">
       <DependentUpon>Message_Request_Data.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Request_Config.xaml.cs">
+      <DependentUpon>Request_Config.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Request_Resend_Data.xaml.cs">
+      <DependentUpon>Request_Resend_Data.xaml</DependentUpon>
     </Compile>
     <Compile Include="XmlElement\AlarmDataInfor.cs" />
     <Compile Include="XmlElement\AxleDataInfor.cs" />
@@ -94,6 +100,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\Message_Request_Data.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Request_Config.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Request_Resend_Data.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -129,7 +143,30 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Serializer\" />
+    <Resource Include="XML_Pack\Config_Pack\Config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XML_Pack\Alarm_Pack\Overweight_Alarm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XML_Pack\Alarm_Pack\OverSpeed_Alarm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XML_Pack\Request_Pack\Reqest_Data.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="XML_Pack\Request_Pack\Request_Resend_Data_5min.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XML_Pack\Request_Pack\Request_Resend_Data_hour.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XML_Pack\Request_Pack\Request_Config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XML_Pack\Data_Pack\DataAggregation.xml" />
+    <Resource Include="XML_Pack\Data_Pack\Data_Aggregation_Type.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

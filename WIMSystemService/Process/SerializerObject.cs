@@ -20,8 +20,7 @@ namespace WIMSystemService.Process
             {
                 try
                 {
-
-                    Pro_Alarm_OverSpeed data = DeserializerXML<Pro_Alarm_OverSpeed>.Deserializer(Name);
+                    Alarm_OverSpeed data = DeserializerXML<Alarm_OverSpeed>.Deserializer(Name);
                     switch (data.Type)
                     {
                         case "config":
@@ -48,12 +47,14 @@ namespace WIMSystemService.Process
                             {
                                 if (int.Parse(data.DevDataInfor.Sub_Data.Over.Value) == 1)
                                 {
-                                    Pro_Alarm_Overweight dataAlarmOccured = DeserializerXML<Pro_Alarm_Overweight>.Deserializer(Name);
+
+                                    Alarm_OverSpeed dataAlarmOccured = DeserializerXML<Alarm_OverSpeed>.Deserializer(Name);
                                     return dataAlarmOccured;
+
                                 }
                                 else if (int.Parse(data.DevDataInfor.Sub_Data.Over.Value) == 2)
                                 {
-                                    Pro_Alarm_OverSpeed dataAlarmOccured = DeserializerXML<Pro_Alarm_OverSpeed>.Deserializer(Name);
+                                    Alarm_Overweight dataAlarmOccured = DeserializerXML<Alarm_Overweight>.Deserializer(Name);
                                     return dataAlarmOccured;
                                 }
                                 break;

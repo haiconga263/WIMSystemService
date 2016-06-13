@@ -85,30 +85,10 @@ namespace WIMSystemService.XmlElement
         [XmlText]
         public string Value { get; set; }
     }
-    //public  class All
-    //{
-    //    [XmlText]
-    //    public  string Value { get; set; }
-    //}
-    ////public class Intensity:AggregationInfoBase
-    //{
-    //    //[XmlElement("ALL")]
-    //    //public All ALL { get; set; }
-
-    //    //[XmlElement]
-
-    //    //public myClass LstClass { get; set; }
-    //}
-    //public class Occupancy : AggregationInfoBase
-    //{
-    //    //[XmlElement("ALL")]
-    //    //public All ALL { get; set; }
-
-    //    //[XmlElement]
-
-    //    //public myClass LstClass { get; set; }
-    //}
-
+    public class Error {
+        [XmlText]
+     public string Value { get; set; }
+    }
     public class AggregationInfoBase
     {
         [XmlElement("ALL")]

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DOC type="request_config" version="2.4" number="1" send_time="2009-09-01 12:00:00" transmission="TCP" >
+  <REQ sender="Kapsch" receiver="all" device_type="WIM"/>
+</DOC>

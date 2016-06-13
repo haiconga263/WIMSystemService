@@ -7,5 +7,26 @@
         mc:Ignorable="d"
         Title="Message_Request_Data" Height="300" Width="482.4">
     <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="22,40,0,0" TextWrapping="Wrap" Text="Type" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="81,39,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="80,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="21,71,0,0" TextWrapping="Wrap" Text="Version" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="80,101,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="21,103,0,0" TextWrapping="Wrap" Text="Number" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="80,136,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="21,141,0,0" TextWrapping="Wrap" Text="Tranmission" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="24,178,0,0" TextWrapping="Wrap" Text="SendTime" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="80,174,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <GroupBox x:Name="groupBox" Header="DOC" HorizontalAlignment="Left" Margin="12,13,0,0" VerticalAlignment="Top" Height="195" Width="213"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="248,46,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="306,45,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="23" Margin="306,77,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="246,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox2_Copy" HorizontalAlignment="Left" Height="23" Margin="306,107,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="246,109,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox3_Copy" HorizontalAlignment="Left" Height="23" Margin="306,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock3_Copy" HorizontalAlignment="Left" Margin="246,147,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <GroupBox x:Name="groupBox_Copy" Header="Request" HorizontalAlignment="Left" Margin="238,19,0,0" VerticalAlignment="Top" Height="195" Width="200"/>
+
     </Grid>
 </Window>

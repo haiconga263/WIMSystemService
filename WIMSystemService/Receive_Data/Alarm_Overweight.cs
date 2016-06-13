@@ -9,20 +9,20 @@ using WIMSystemService.XmlElement;
 namespace WIMSystemService.Process
 {
     [XmlRoot("DOC")]
-    public  class Pro_Alarm_OverSpeed : CommunicationInfor
+    public class Alarm_Overweight : CommunicationInfor
     {
         [XmlElement("DEV_DATA")]
-        public DevData_Over DevDataInfor { get; set; }
+        public DevData_OverW DevDataInfor { get; set; }
     }
 
-    public class DevData_Over : RequestSubSpec
+    public class DevData_OverW : RequestSubSpec
     {
         [XmlElement("SUB_DATA")]
-        public Pro_SubsystemInfor Sub_Data { get; set; }
+        public Sub_SystemInfor_W Sub_Data { get; set; }
     }
-    public class Pro_SubsystemInfor : SubsystemInfor
+    public class Sub_SystemInfor_W : SubsystemInfor
     {
         [XmlElement("ALARM")]
-        public OverspeedAlarm Over { get; set; }
+        public OverWeightAlarm Alarm { get; set; }
     }
 }

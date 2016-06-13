@@ -17,7 +17,7 @@ namespace WIMSystemService.Serializer
         {
             if (source == null)
                 throw new ArgumentNullException("source", "Object to serialize cannot be null");
-            using (TextWriter writer = new StreamWriter(string.Format(Name+".xml")))
+            using (TextWriter writer = new StreamWriter(string.Format(Name + ".xml")))
                 {
                     var xmlSerializer = new XmlSerializer(typeof(T));
                     xmlSerializer.Serialize(writer, source);

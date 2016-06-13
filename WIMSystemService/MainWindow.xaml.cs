@@ -3,6 +3,7 @@ using System.IO;
 using System.Windows;
 using System.Xml;
 using System.Xml.Serialization;
+using WIMSystemService.Deserializer;
 using WIMSystemService.Process;
 using WIMSystemService.Request;
 
@@ -20,6 +21,7 @@ namespace WIMSystemService
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+           object data = SerializerObject.Check("Data_Aggregation_Type.XML");
         }
 
         private void BrowseXmlFile(object sender, RoutedEventArgs e)
@@ -55,9 +57,7 @@ namespace WIMSystemService
                 return;
             }
 
-            string pathSave = @"Result.XML";
-            Type T = typeof(DataAggregation);
-
+            string pathSave = "Result.XML";
 
             ///XMl -> Obj -> XML
             var obj = SerializerObject.Check(txtFileLoad.Text);

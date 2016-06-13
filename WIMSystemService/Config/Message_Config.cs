@@ -13,18 +13,24 @@ namespace WIMSystemService.Receive_Data
     {
         [XmlElement("DEVICE_TYPE")]
         public List<DeviceType_Infor> DeviceTypeInfor { get; set; }
+        [XmlElement("REQUEST_ERRORS")]
+        public Request_Error RequestError { get; set; }
+    }
+    public class Request_Error : RequestError {
+        [XmlElement("ERROR")]
+        public Error error { get; set; }
     }
 
     public class DeviceType_Infor : DeviceTypeInfor
     {
         [XmlElement("DEVICE")]
-        public List<SubSystemType> SubSysType { get; set; }
+        public List<SubSystemType> Device { get; set; }
     }
 
     public class SubSystemType : ConfigDevice
     {
         [XmlElement("SUBSYS_TYPE")]
-        public SubSystem SubSys { get; set; }
+        public SubSystem SysSubType { get; set; }
     }
 
     public class SubSystem : ConfigDevice

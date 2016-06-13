@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DOC type="alarm_occured" version="2.6" number="1376" send_time="2013-06-05 11:06:03" transmission="TCP" >
+  <DEV_DATA sender="WIM_XX-XX" receiver="Customer" device_type="WIM" data_type="events" device_subsys="all"
+  device_subsys_type="all" start_time="2013-06-05 11:01:05" stop_time="2013-06-05 11:06:05">
+    <SUB_DATA subsys="XX-XX-WN" subsys_type="LANE">
+      <ALARM value="1" description="Overspeed car">
+        <CLASS type="EUR13">1</CLASS>
+        <LP_FRONT>7B71234</LP_FRONT>
+        <LP_FRONT_ILPC>CZ</LP_FRONT_ILPC>
+        <LP_BACK>7B71234</LP_BACK>
+        <LP_BACK_ILPC>CZ</LP_BACK_ILPC>
+        <LP_IMAGE_FRONT>Base64formated image</LP_IMAGE_FRONT>
+        <LP_IMAGE_BACK>Base64 formated image </LP_IMAGE_BACK>
+        <DETAIL_IMAGE_FRONT>Base64 formated image </DETAIL_IMAGE_FRONT>
+        <DETAIL_IMAGE_BACK>Base64 formated image </DETAIL_IMAGE_BACK>
+        <OVERVIEW_IMAGE>Base64 formated image </OVERVIEW_IMAGE>
+        <TIME>2013-06-05 11:01:16</TIME>
+        <OVERSPEED speed_limit="80" speed_measured="95"/>
+      </ALARM>
+    </SUB_DATA>
+  </DEV_DATA>
+</DOC>

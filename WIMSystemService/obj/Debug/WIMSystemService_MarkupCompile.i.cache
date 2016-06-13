@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\ITD\Github_TeamWimService\WIMSystemService\WIMSystemService\App.xaml
-292708767
+4-485465985
 
-30-791954734
+32-2049660086
 15-1410660819
-MainWindow.xaml;View\Message_Request_Data.xaml;
+MainWindow.xaml;View\Message_Request_Data.xaml;View\Request_Config.xaml;View\Request_Resend_Data.xaml;
 
 False
 

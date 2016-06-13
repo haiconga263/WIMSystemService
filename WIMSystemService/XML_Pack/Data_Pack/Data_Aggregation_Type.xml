@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DOC type="data" version="2.4" number="1" send_time="2011-04-01 12:05:04" transmission="TCP" >
+  <DEV_DATA sender="WIM_LV-KO" receiver="vars" device_type="WIM" data_type="5min" start_time="2011-04-01
+12:00:00" stop_time="2011-04-01 12:05:00">
+    <SUB_DATA subsys="LV-KO-W2" subsys_type="LANE">
+      <INTENSITY>
+        <ALL>100</ALL>
+        <CLASS id="1">80</CLASS>
+        <CLASS id="4">20</CLASS>
+      </INTENSITY>
+      <OCCUPANCY>
+        <ALL>40</ALL>
+        <CLASS id="1">35</CLASS>
+        <CLASS id="4">5</CLASS>
+      </OCCUPANCY>
+      <VELOCITY>
+        <ALL>60</ALL>
+        <CLASS id="1">61</CLASS>
+        <CLASS id="4">57</CLASS>
+       </VELOCITY>
+      <STATUSES>
+        <STATUS value="0" description="Ok"/>
+      </STATUSES>
+      <CONFIDENCE>100</CONFIDENCE>
+</SUB_DATA>
+    <STATUSES>
+      <STATUS value="3" description="Service / Test"/>
+    </STATUSES>
+</DEV_DATA>
+</DOC>

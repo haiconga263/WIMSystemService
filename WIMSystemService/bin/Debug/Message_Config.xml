@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOC type="config" version="2.4" number="457" send_time="2009-09-01 12:00:00" transmission="TCP" >
+<DEVICE_TYPE receiver="Kapsch" id="SDDU" desc="Strategical traffic detection" actual_time="2009-09-01 12:00:00">
+    <DEVICE id="SDDU_BS-KB" desc ="Teesdorf – Vienna direction Teesdorf">
+    <SUBSYS_TYPE id="LANE" desc ="Lane communication (numbered from the left in the direction of movement)">
+              <SUBSYS id="SDDU_BS-KB_1" desc="Lane 1"/>
+              <SUBSYS id="SDDU_BS-KB_2" desc ="Lane 2"/>
+              <SUBSYS id="SDDU_BS-KB_3" desc ="Lane 3"/>
+    </SUBSYS_TYPE>
+    </DEVICE>
+</DEVICE_TYPE>
+  
+<DEVICE_TYPE receiver="Kapsch" id="DD" desc="Passage time" actual_time="2009-09-01 12:00:00">
+    <DEVICE id="MS_BHKB-CHTP" desc ="Teesdorf – South link, Neustadt - class 5 (exit Neustadt)">
+    <SUBSYS_TYPE id="TRAFFIC_TYPE" desc ="Type of traffic flow (passenger/cargo/all) for which the calculated
+coasting time">
+              <SUBSYS id="OS_BHKB-CHTP-TRK" desc=" Teesdorf – South link, Neustadt - class 5 (exit Neustadt), trucks"/>
+              <SUBSYS id="OS_BHKB-CHTP-CAR" desc=" Teesdorf – South link, Neustadt - class 5 (exit Neustadt), passengercars"/>
+    </SUBSYS_TYPE>
+    </DEVICE>
+<DEVICE id="MS_EVCE-EVVN" desc ="Teesdorf (downtown), Teesdorf – main square">
+    <SUBSYS_TYPE id="TRAFFIC_TYPE" desc =" Type of traffic flow (passenger/cargo/all) for which the calculated
+coasting time">
+              <SUBSYS id="OS_EVCE-EVVN" desc=" Teesdorf (downtown), Teesdorf – main square"/>
+  </SUBSYS_TYPE>
+    </DEVICE>
+    </DEVICE_TYPE>
+
+  <REQUEST_ERRORS type="Re_Error" number="123" send_time="2009-09-01 12:00:00" sender="sender" receiver="Receiver" device_type="device_type">
+    <ERROR>Error</ERROR>
+   </REQUEST_ERRORS>
+</DOC>
