@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Windows;
-using WIMSystemService.Deserializer;
+using System.Xml;
+using System.Xml.Serialization;
 using WIMSystemService.Process;
 using WIMSystemService.Request;
-using WIMSystemService.Serializer;
 
 namespace WIMSystemService
 {
@@ -20,19 +20,78 @@ namespace WIMSystemService
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            Request_Resend_Data rsd = new Request_Resend_Data { Number="123",RequestInfor= new Request_Resend_Doc { DataType = "1", Request = new Sub_Resend_Request {StartTime = "1234" } }, SendTime = "123", Transmission = "1" };
-            //Request_Data rq = new Request_Data { Number = "123", Type = "123", RequestInfor = new Request_Doc { Receiver = "123", Sender = "123", Request = new Sub_Request { SubSystemSpec = new XmlElement.SubsystemInfor { SubSystem = "123", SubSystemType = "231" } } } };
+        }
+
+        private void BrowseXmlFile(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
+            dlg.CheckFileExists = true;
+            dlg.Filter = "XML Files (*.xml)|*.xml|All Files(*.*)|*.*";
+            dlg.Multiselect = false;
+
+            if (dlg.ShowDialog() != true) { return; }
+
+            XmlDocument XMLdoc = new XmlDocument();
             try
             {
-                //MySerializerXML<Request_Resend_Data>.Serialize(rsd, "thai");
-
-                Pro_Alarm_Overweight dt = DeserializerXML<Pro_Alarm_Overweight>.Deserializer("demoxml.xml");
+                XMLdoc.Load(dlg.FileName);
             }
-            catch (Exception ex)
+            catch (XmlException xmlEx)
             {
-                MessageBox.Show(ex.InnerException.ToString());
+                MessageBox.Show(xmlEx.ToString());
+                return;
             }
 
+            txtFileLoad.Text = dlg.FileName;
+            vxmlBefore.xmlDocument = XMLdoc;
+
+        }
+
+        private void Refesh_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtFileLoad.Text == "")
+            {
+                MessageBox.Show("Bạn chưa load gói tin");
+                return;
+            }
+
+            string pathSave = @"Result.XML";
+            Type T = typeof(DataAggregation);
+
+
+            ///XMl -> Obj -> XML
+            var obj = SerializerObject.Check(txtFileLoad.Text);
+            Serialize(pathSave, obj, obj.GetType());
+
+            XmlDocument XMLdoc = new XmlDocument();
+            try
+            {
+                XMLdoc.Load(pathSave);
+            }
+            catch (XmlException xmlex)
+            {
+                MessageBox.Show(xmlex.ToString());
+                return;
+            }
+            vxmlAtfer.xmlDocument = XMLdoc;
+        }
+
+        private void Serialize(string desFile, object obj, Type T)
+        {
+            TextWriter writer = new StreamWriter(desFile);
+            var xmlSerializer = new XmlSerializer(T);
+            xmlSerializer.Serialize(writer, obj);
+            writer.Close();
+        }
+
+        private object Deserialize(string src, Type T)
+        {
+            TextReader reader = new StreamReader(src);
+
+            var xmlSerializer = new XmlSerializer(T);
+            var obj = xmlSerializer.Deserialize(reader);
+            reader.Close();
+            return obj;
         }
     }
 }

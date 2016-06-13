@@ -49,6 +49,9 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="XMLViewer">
+      <HintPath>C:\Users\HaiConGa\Desktop\WIMSystemService-master\WIMSystemService\bin\Debug\XMLViewer.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -56,6 +59,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Process\DeserializerXML.cs" />
+    <Compile Include="Process\SerializerObject.cs" />
     <Compile Include="Receive_Data\Message_Config.cs" />
     <Compile Include="Receive_Data\Pro_Alarm_OverSpeed.cs" />
     <Compile Include="Receive_Data\DataAggregation.cs" />

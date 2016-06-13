@@ -8,7 +8,7 @@ using WIMSystemService.XmlElement;
 
 namespace WIMSystemService.Process
 {
-    public class DevDataInFor4_2 : DeviceDataInfor
+    public class DevDataInfor : DeviceDataInfor
     {
         [XmlArray("STATUSES")]
         [XmlArrayItem("STATUS", typeof(Status))]
@@ -18,10 +18,10 @@ namespace WIMSystemService.Process
         public SubDatawithAggregation SubDatawithAggregation { get; set; }
     }
     [XmlRoot("DOC")]
-    public class Data_4_4_1_2: CommunicationInfor
+    public class DataAggregationType : CommunicationInfor
     {
         [XmlElement("DEV_DATA")]
-        public DevDataInFor4_2 DevDataInfor { get; set; }
+        public DevDataInfor DevDataInfor { get; set; }
 
     }
 }
